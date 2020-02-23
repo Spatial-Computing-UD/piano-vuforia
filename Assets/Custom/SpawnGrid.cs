@@ -12,7 +12,7 @@ public class SpawnGrid : MonoBehaviour
     {
         float length = (highestOctave + 1) * 7.7F;
         Vector3 scale = new Vector3(1, 1, length / 10);
-        Vector3 position = new Vector3(0, 0, (length / 1F) + 3.3F);
+        Vector3 position = new Vector3(0, -1, (length - 7.7F) / (highestOctave + 1));
 
         GameObject obj = Instantiate(Grid, position, Quaternion.identity, this.transform);
         obj.transform.localScale = scale;

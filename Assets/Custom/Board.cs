@@ -72,17 +72,18 @@ public class Board : MonoBehaviour
         position = (position * 0.1F) + position;
 
         // Create vector3 for the location to spawn the note
-        Vector3 location = new Vector3(-5, 1, -3.3F);
-        location = location + new Vector3(0 - (length / 2), 0, position);
+        //        Vector3 location = new Vector3(-5, 1, -3.3F);
+        Vector3 location = gameObject.transform.GetChild(0).position;
+        location = location + new Vector3(0 - (length / 2), 0, (position / gameObject.transform.GetChild(0).localScale.z) - gameObject.transform.GetChild(0).position.z);
 
-        GameObject newNote = Instantiate(noteBlock, location, Quaternion.identity, gameObject.transform);
-        newNote.transform.localScale = new Vector3(length, 1, 1);
+        GameObject newNote = Instantiate(noteBlock, location, Quaternion.identity, gameObject.transform.GetChild(0).transform);
+        newNote.transform.localScale = new Vector3(length, 1, 1 / gameObject.transform.GetChild(0).localScale.z);
     }
 
     // Update the position for currently spawned notes
     void UpdateNotes()
     {
-        foreach (Transform child in transform)
+        foreach (Transform child in gameObject.transform.GetChild(0).transform)
         {
             child.position += new Vector3(noteChange, 0, 0);
         }
