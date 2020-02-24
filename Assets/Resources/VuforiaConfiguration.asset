@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
-    vuforiaLicenseKey: AT2JsFX/////AAABmXPRpxL+MUSUlAPjMG84tiVIxkFt4JGM9IBYxyUqp2T/kEayQUhOEr5/KoYgCAUETGRaGJtQPii39l4MOVaAw+/hOgcyRNBXtI5naK5FkelgHuq6MIrOuXOlR/VLZFgUKdpXd9wl2kwbRaQLR2YYdY6om2cXXaAmN79cdxbf4VVwzgmF3rzTBHDED7PV4v5HdTHYFxkNxy3r7mGjOV+Mfy70SfKNsTQMjO7GT12BCj7KgNLe8CiYxl3ZXd2Wul2GcZm+brMZFyEdUfDYRLj4ra1+1J10qX2qjUHHy+mm3Cek5WpTAoBpTpqAnwTq0Dr2v28D+oDMzJBnsoAYHzWln8tFJuXp6CDyReqKqT5ELa6V
-    ufoLicenseKey: QVNkY3QzMy8vLy8vQUFBQUtDbHZ6S2FVdFVsT2g3MVQwVk5maXNRYkk2ZzZrQlJXMGVtSUpyWmRyTUIzeFVGM0l4MmhUMWxUYjdZV2FzMm55MmNHM0xBZTZVbmxvSE5ST1pnRUFwV1U0b3NoeThPcG90RUFJcXVwcExTcGJoK1VweUdvU3BtTVNqY3BhdGQ2WHJLT1FaNTBKQ2RGMCtuUE1sZzRNdlVxRjZBRDBFSEloYmQwUm50VVNPMDhqcG1LMjUrcjZZcm4zcVZ4U1JCZ1VZVUdsSkhTMW1TTHNzK29zTGJMdE81SGRmTTVZeURYNlA2WXZ5NWVIeTR0c0xjKzM4cCs0QmhLZlEzWk82Z0VwckcyemVjejFGaGNVL0VqZDNZOEo1RHM1MFpPRWdHQmJQYW1FdnEyRFhQTUN1TDRJbzk2YmNzczdSRFJuK1ozU0lodENsVVo0c3orQ0w1MjFNSGtpVnV1U1pxekFqTlUvcW9NOVQzVG5rNmU=
+    vuforiaLicenseKey: 
+    ufoLicenseKey: QWV2WDhRai8vLy8vQUFBQUtNRXVQNHEyclVlWW14Uk1PN29NMXdZMThUUjhoZVR1a3pLOURhMVYxWHJkbWxmVDZoUkFnSlVGNkdNMWdidmNMbUNmRzdKRmFlbktlY2E3T0JQOGR0ZldJZjhhZ2g2ZzZOZHpQRnJLUDNqeEg2dFBLUUx5WDBhODBad0hQR04vcGtaUHUzTER3eHhmcS9QQ2xvUzY2YjltVWUwN0lKZGF3K0RMTm42OGZGVXRxaEhoRE9uWnllY0FyZ0pwN1pnSVNVZll5a1VaaFZCY2pkYXNvVE5kdzlmQjFCb0gvS05aM1MxUllwWStIaUlTUGpwZllEWVRHekFQVXdBMUs3QmlhaWR2WVZCVUMvbGxBK1Y4Q0g1V2NDQmk3MWhlMHVkWFB3SVgvTUJSbTRJMXBsYUdHQXpmRzE4Z251clAvWTNYNDN4L0IrdlkzbDlLT3RHNlFJb2lnaXFvR0Y1U3dDTkhMYzZsdVB3WWtpUW8=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
     maxSimultaneousImageTargets: 1
@@ -28,9 +28,9 @@ MonoBehaviour:
     distortionRenderingLayer: 31
     eyewearType: 0
     stereoFramework: 0
-    seeThroughConfiguration: 1
-    viewerName: Generic Cardboard
-    viewerManufacturer: Vuforia
+    seeThroughConfiguration: 0
+    viewerName: 
+    viewerManufacturer: 
     useCustomViewer: 0
     customViewer:
       Version: 0
